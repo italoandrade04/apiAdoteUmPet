@@ -1,0 +1,20 @@
+{
+  "name": "apiAdoteUmPet",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/AlexandreH13/apiAdoteUmPet/app"
+    }
+  ]
+}

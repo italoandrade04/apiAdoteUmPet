@@ -1,20 +1,11 @@
 {
-  "name": "apiAdoteUmPet",
-  "scripts": {
-  },
-  "env": {
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
-  "addons": [
 
-  ],
-  "buildpacks": [
-    {
-      "url": "https://github.com/AlexandreH13/apiAdoteUmPet/app.js"
-    }
-  ]
+	"name": "adoteumpet-api",
+	"main": "adoteumpetapp",
+	"dependencies": {
+		"express": "~4.0.0",
+		"mongoose": "~3.6.13",
+		"body-parser": "~1.0.1"
+	}
+
 }

@@ -14,7 +14,7 @@
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/AlexandreH13/apiAdoteUmPet/app"
+      "url": "https://github.com/AlexandreH13/apiAdoteUmPet/app.js"
     }
   ]
 }
